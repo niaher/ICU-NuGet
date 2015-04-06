@@ -49,3 +49,5 @@ node_modules
 /packages/*
 !/packages/repositories.config
 !NuGet.exe
+
+ICU4C-55.1/

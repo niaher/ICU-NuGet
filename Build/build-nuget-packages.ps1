@@ -10,7 +10,7 @@ function Build-Packages
 		[string]$Project
 	)
 
-	$projects = ("ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec")
+	$projects = ("ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec", "ICU4C-55.1-lib32\ICU4C-55.1-lib32.nuspec")
 
 	# Remove previously built packages.
 	Remove-Item *.nupkg

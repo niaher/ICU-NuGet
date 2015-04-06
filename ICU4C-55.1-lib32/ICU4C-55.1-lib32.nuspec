@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
 	<metadata>
-		<id>ICU4C-55.1-bin32</id>
+		<id>ICU4C-55.1-lib32</id>
 		<version>1.0.0</version>
-		<title>ICU4C-55.1-bin32</title>
+		<title>ICU4C-55.1-lib32</title>
 		<authors>https://github.com/niaher</authors>
 		<owners>http://site.icu-project.org</owners>
 		<projectUrl>https://github.com/niaher/icu-nuget</projectUrl>
@@ -15,12 +15,13 @@
 	<files>
 		<file src="install.ps1" target="tools" />
 		<file src="ReadMe.md" target="content" />
-		<file src="..\ICU4C-55.1\bin\icudt55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuin55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuio55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icule55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\iculx55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icutu55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuuc55.dll" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icudt.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icuin.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icuio.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icule.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\iculx.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icutu.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icuuc.lib" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\include\*" target="tools\ICU4C" />
 	</files>
 </package>

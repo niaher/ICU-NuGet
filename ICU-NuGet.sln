@@ -24,28 +24,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-bin32", "ICU4C-5
 		ICU4C-55.1-bin32\ReadMe.md = ICU4C-55.1-bin32\ReadMe.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C", "ICU4C", "{6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-lib32", "ICU4C-55.1-lib32", "{2402F562-E1C0-4F70-BD0E-55C32EB73B09}"
 	ProjectSection(SolutionItems) = preProject
-		ICU4C-55.1-bin32\ICU4C\license.html = ICU4C-55.1-bin32\ICU4C\license.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{7DF59C44-DE69-42AD-A151-28675D2EA973}"
-	ProjectSection(SolutionItems) = preProject
-		ICU4C-55.1-bin32\ICU4C\bin\icudt55.dll = ICU4C-55.1-bin32\ICU4C\bin\icudt55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\icuin55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuin55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\icuio55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuio55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\icule55.dll = ICU4C-55.1-bin32\ICU4C\bin\icule55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\iculx55.dll = ICU4C-55.1-bin32\ICU4C\bin\iculx55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\icutu55.dll = ICU4C-55.1-bin32\ICU4C\bin\icutu55.dll
-		ICU4C-55.1-bin32\ICU4C\bin\icuuc55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuuc55.dll
+		ICU4C-55.1-lib32\ICU4C-55.1-lib32.nuspec = ICU4C-55.1-lib32\ICU4C-55.1-lib32.nuspec
+		ICU4C-55.1-lib32\install.ps1 = ICU4C-55.1-lib32\install.ps1
+		ICU4C-55.1-lib32\ReadMe.md = ICU4C-55.1-lib32\ReadMe.md
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A} = {321A4337-10D7-4A06-A436-B380328D0C35}
-		{7DF59C44-DE69-42AD-A151-28675D2EA973} = {6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A}
 	EndGlobalSection
 EndGlobal
