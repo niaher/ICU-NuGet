@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>ICU4C-55.1-bin32</id>
+		<version>1.0.0</version>
+		<title>ICU4C-55.1-bin32</title>
+		<authors>https://github.com/niaher</authors>
+		<owners>http://site.icu-project.org</owners>
+		<projectUrl>https://github.com/niaher/icu-nuget</projectUrl>
+		<description>Simple wrapper for ICU4C (http://site.icu-project.org/).</description>
+		<iconUrl>http://site.icu-project.org/_/rsrc/1381506515233/config/customLogo.gif?revision=1</iconUrl>
+		<licenseUrl>http://source.icu-project.org/repos/icu/icu/trunk/license.html</licenseUrl>
+	</metadata>
+
+	<files>
+		<file src="install.ps1" target="tools" />
+		<file src="ReadMe.md" target="content" />
+		<file src="ICU4C\bin\icudt55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\icuin55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\icuio55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\icule55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\iculx55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\icutu55.dll" target="tools\ICU4C" />
+		<file src="ICU4C\bin\icuuc55.dll" target="tools\ICU4C" />
+	</files>
+</package>

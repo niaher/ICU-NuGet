@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D20C9378-782E-4BB3-ABC7-0DB546A55B1D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{BFC3717C-BAFA-4585-A6A4-124E4CF8444F}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build-nuget-packages.ps1 = Build\build-nuget-packages.ps1
+		Build\push-nuget-packages.ps1 = Build\push-nuget-packages.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0FF903B1-2664-4231-AAAA-0CD8FF2C03A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-bin32", "ICU4C-55.1-bin32", "{321A4337-10D7-4A06-A436-B380328D0C35}"
+	ProjectSection(SolutionItems) = preProject
+		ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec = ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec
+		ICU4C-55.1-bin32\install.ps1 = ICU4C-55.1-bin32\install.ps1
+		ICU4C-55.1-bin32\ReadMe.md = ICU4C-55.1-bin32\ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C", "ICU4C", "{6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A}"
+	ProjectSection(SolutionItems) = preProject
+		ICU4C-55.1-bin32\ICU4C\license.html = ICU4C-55.1-bin32\ICU4C\license.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{7DF59C44-DE69-42AD-A151-28675D2EA973}"
+	ProjectSection(SolutionItems) = preProject
+		ICU4C-55.1-bin32\ICU4C\bin\icudt55.dll = ICU4C-55.1-bin32\ICU4C\bin\icudt55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\icuin55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuin55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\icuio55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuio55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\icule55.dll = ICU4C-55.1-bin32\ICU4C\bin\icule55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\iculx55.dll = ICU4C-55.1-bin32\ICU4C\bin\iculx55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\icutu55.dll = ICU4C-55.1-bin32\ICU4C\bin\icutu55.dll
+		ICU4C-55.1-bin32\ICU4C\bin\icuuc55.dll = ICU4C-55.1-bin32\ICU4C\bin\icuuc55.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A} = {321A4337-10D7-4A06-A436-B380328D0C35}
+		{7DF59C44-DE69-42AD-A151-28675D2EA973} = {6A8ECFF6-7CE7-4C26-81C4-AB88B42A146A}
+	EndGlobalSection
+EndGlobal

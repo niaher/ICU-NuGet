@@ -1,0 +1,51 @@
+*~
+*.dll
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.sdf
+*.opensdf
+*.dbmdl
+*.dbproj.schemaview
+*.schemaview
+[Bb]in
+[Dd]ebug
+[Oo]bj
+[Rr]elease
+[Tt]umbs.db
+
+# ReSharper
+_ReSharper.*/
+
+# StyleCop
+StyleCop.Cache
+
+# Sonar
+.sonar/
+sonar-project.properties
+
+# Node.js
+node_modules
+
+# NuGet
+*.nupkg
+/packages/*
+!/packages/repositories.config
+!NuGet.exe
