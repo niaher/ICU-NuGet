@@ -15,13 +15,14 @@
 	<files>
 		<file src="install.ps1" target="tools" />
 		<file src="ReadMe.md" target="content" />
-		<file src="..\ICU4C-55.1\lib\icudt.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\icuin.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\icuio.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\icule.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\iculx.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\icutu.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\lib\icuuc.lib" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\include\*" target="tools\ICU4C" />
+		<file src="..\ICU4C-55.1\lib\icudt.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\icuin.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\icuio.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\icule.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\iculx.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\icutu.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\lib\icuuc.lib" target="tools\ICU4C\lib" />
+		<file src="..\ICU4C-55.1\include\layout\*" target="tools\ICU4C\include\layout" />
+		<file src="..\ICU4C-55.1\include\unicode\*" target="tools\ICU4C\include\unicode" />
 	</files>
 </package>
