@@ -51,3 +51,4 @@ node_modules
 !NuGet.exe
 
 ICU4C-55.1/
+Package.nuspec

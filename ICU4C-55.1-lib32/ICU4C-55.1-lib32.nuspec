@@ -14,6 +14,7 @@
 
 	<files>
 		<file src="install.ps1" target="tools" />
+		<file src="uninstall.ps1" target="tools" />
 		<file src="ReadMe.md" target="content" />
 		<file src="..\ICU4C-55.1\lib\icudt.lib" target="tools\ICU4C\lib" />
 		<file src="..\ICU4C-55.1\lib\icuin.lib" target="tools\ICU4C\lib" />
