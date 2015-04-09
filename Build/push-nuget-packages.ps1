@@ -4,7 +4,7 @@ param (
 )
 
 $solutionDir = Split-Path $dte.Solution.FileName -Parent
-$packagesDir = "$solutionDir/NugetPackages"
+$packagesDir = "$solutionDir/Build"
 
 # Get NuGet handle.
 $nuget = "$solutionDir\.nuget\NuGet.exe"
