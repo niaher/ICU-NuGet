@@ -14,5 +14,3 @@ $dlls = (
 foreach ($dll in $dlls) {
 	$project.ProjectItems.Item("$dll").Remove()
 }
-
-Remove-Item "$solutionDir\ICU4C" -Recurse -Force

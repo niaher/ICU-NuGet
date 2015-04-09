@@ -16,12 +16,5 @@
 		<file src="install.ps1" target="tools" />
 		<file src="uninstall.ps1" target="tools" />
 		<file src="ReadMe.md" target="content" />
-		<file src="..\ICU4C-55.1\bin\icudt55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuin55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuio55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icule55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\iculx55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icutu55.dll" target="tools\ICU4C" />
-		<file src="..\ICU4C-55.1\bin\icuuc55.dll" target="tools\ICU4C" />
 	</files>
 </package>
