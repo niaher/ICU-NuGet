@@ -16,8 +16,6 @@ Set-Location $solutionDir
 $icu4cDir = (Resolve-Path -Relative "$toolsPath\ICU4C").Replace(".\", '$(SolutionDir)\')
 Pop-Location
 
-Write-Host $icu4cDir
-
 # Open project file as xml document
 $path = $project.FullName
 $xmldoc = New-Object System.Xml.XmlDocument
