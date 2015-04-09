@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D20C9378-782E-4BB3-ABC7-0DB546A55B1D}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-bin32", "ICU4C-5
 		ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec = ICU4C-55.1-bin32\ICU4C-55.1-bin32.nuspec
 		ICU4C-55.1-bin32\install.ps1 = ICU4C-55.1-bin32\install.ps1
 		ICU4C-55.1-bin32\ReadMe.md = ICU4C-55.1-bin32\ReadMe.md
+		ICU4C-55.1-bin32\uninstall.ps1 = ICU4C-55.1-bin32\uninstall.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-lib32", "ICU4C-55.1-lib32", "{2402F562-E1C0-4F70-BD0E-55C32EB73B09}"
