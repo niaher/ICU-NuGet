@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICU4C-55.1-lib32", "ICU4C-5
 		ICU4C-55.1-lib32\ICU4C-55.1-lib32.nuspec = ICU4C-55.1-lib32\ICU4C-55.1-lib32.nuspec
 		ICU4C-55.1-lib32\install.ps1 = ICU4C-55.1-lib32\install.ps1
 		ICU4C-55.1-lib32\ReadMe.md = ICU4C-55.1-lib32\ReadMe.md
+		ICU4C-55.1-lib32\uninstall.ps1 = ICU4C-55.1-lib32\uninstall.ps1
 	EndProjectSection
 EndProject
 Global
