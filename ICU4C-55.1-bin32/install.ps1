@@ -35,7 +35,11 @@ foreach ($dll in $dlls) {
 	# Get added project item.
 	$item = $project.ProjectItems.Item("$dll")
 	
-	# set 'Copy To Output Directory' to 'Copy always'	
+	# Set "Copy To Output Directory" to "Copy always".
 	$copyToOutput = $item.Properties.Item("CopyToOutputDirectory")
-	$copyToOutput.Value = 1
+	$copyToOutput.Value = 2
+
+	# Set build action to "None". If we set it to "content", then the DLLs
+	# will be auto added to the "content" folder in the dependent NuGet package.
+	$item.Properties.Item("BuildAction").Value = 0
 }
