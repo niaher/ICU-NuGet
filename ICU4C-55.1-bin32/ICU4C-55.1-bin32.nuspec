@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>ICU4C-55.1-bin32</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>ICU4C-55.1-bin32</title>
 		<authors>https://github.com/niaher</authors>
 		<owners>http://site.icu-project.org</owners>
@@ -13,6 +13,7 @@
 	</metadata>
 
 	<files>
+		<file src="init.ps1" target="tools" />
 		<file src="install.ps1" target="tools" />
 		<file src="uninstall.ps1" target="tools" />
 		<file src="ReadMe.md" target="content" />
